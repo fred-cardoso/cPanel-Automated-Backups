@@ -1,0 +1,18 @@
+{
+  "name": "fredcardoso/cpanel-automated-backups",
+  "description": "Script for running automated backups on cPanel instances",
+  "minimum-stability": "dev",
+  "license": "cc-by-4.0",
+  "authors": [
+    {
+      "name": "Frederico Cardoso",
+      "email": "geral@fredcardoso.pt"
+    }
+  ],
+  "require": {
+    "gufy/cpanel-php": "2.0.*"
+  },
+  "autoload": {
+    "classmap": ["backup.php"]
+  }
+}
